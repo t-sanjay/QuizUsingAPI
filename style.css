@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin: 20px;
+    width:50%;
+    height: auto;
+    border: 15px solid #7d4945;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 20px 20px 20px #ba6c66;  
+
+}
+select {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 16px;
+    display: inline-block;
+    padding: 4px 3px 5px 5px;
+    width: auto;
+    outline: none;
+    color: black;
+    border: 1px solid #C8BFC4;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 2px #ddd8dc;  
+}
+.head{
+    font-family: 'Turret Road', cursive;
+    font-size: 45px;
+    text-decoration: underline;
+
+}
+.box{
+    font-weight: bold;
+    padding: 15px;
+    width: 70%;
+    
+}
+.category{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+}
+.difficulty{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 19px;
+}
+.getques{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.submit {
+    background-color: #4CAF50; 
+    border: none;
+    color: yellow;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Grandstander', cursive;
+    border-radius: 5px;
+
+}
+.question{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+}
+.button{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-left: 15px;
+}
+.answer {
+    margin: 10px 0px 5px 5px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+
+  }
+.next{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: flex-end;
+
+}
+.nextbtn{
+    background-color: #7d4945;
+    border-radius: 10px;
+    color: white;
+}
+@media only screen and (max-width: 800px) {
+    body{
+        width: 90%;
+    }
+    .container{
+        width:80%;
+        padding: 10px;
+    }
+    .box{
+        width: 80%;
+    }
+    select{
+        width: 100%;
+    }
+    .button{
+        width: 80%;
+    }
+}
